@@ -1,0 +1,54 @@
+.body {
+    background-color: black;
+    color: #FFA500;
+    text-align: center;
+    margin: 0;
+}
+.video {
+    position:relative;
+    z-index: 1;
+    padding-bottom: 56.25%;
+}
+.video_media {
+    position:absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+.intro {
+    position: relative;
+}
+.intro:after{
+    content:"";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.fullscreen-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.introt {
+    mix-blend-mode: overlay;
+    margin: 0;
+    font-size: 80px;
+    color: #FFA500;
+    text-align: center;
+}
